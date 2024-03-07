@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #F9FaF8;
+}
+
+.header-and-hero{
+    padding: 8px 120px;
+    background-color: #1F2937;
+    color: #F9FaF8;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    width: match-parent;
+}
+
+.header-flex ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;  
+}
+
+.hero-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text-section{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
